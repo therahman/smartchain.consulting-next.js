@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="357.524" height="377.323" viewBox="0 0 357.524 377.323">
+  <g id="widget-img" transform="translate(-0.238 -0.339)">
+    <g id="Elements_BG" data-name="Elements / BG" transform="translate(0 0)">
+      <rect id="Color" width="286" height="314" rx="10" transform="matrix(0.966, -0.259, 0.259, 0.966, 0.238, 74.361)" fill="#fff"/>
+    </g>
+    <g id="Elements_Info" data-name="Elements / Info" transform="translate(90.281 313.844)">
+      <circle id="Color-2" data-name="Color" cx="7" cy="7" r="7" transform="matrix(0.966, -0.259, 0.259, 0.966, 0.427, 22.328)" fill="#f7e36d"/>
+      <text id="Text" transform="matrix(0.966, -0.259, 0.259, 0.966, 25.473, 28.784)" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Restless</tspan></text>
+    </g>
+    <g id="Elements_Info-2" data-name="Elements / Info" transform="translate(184.281 292.844)">
+      <circle id="Color-3" data-name="Color" cx="7" cy="7" r="7" transform="matrix(0.966, -0.259, 0.259, 0.966, 0.427, 19.328)" fill="#f7e36d"/>
+      <text id="Text-2" data-name="Text" transform="matrix(0.966, -0.259, 0.259, 0.966, 24.268, 26.231)" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Awake</tspan></text>
+    </g>
+    <g id="Elements_Info-3" data-name="Elements / Info" transform="translate(267.281 268.844)">
+      <circle id="Color-4" data-name="Color" cx="7" cy="7" r="7" transform="matrix(0.966, -0.259, 0.259, 0.966, 0.427, 19.328)" fill="#416ff4"/>
+      <text id="Text-3" data-name="Text" transform="matrix(0.966, -0.259, 0.259, 0.966, 24.268, 26.231)" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Awake</tspan></text>
+    </g>
+    <g id="Group_7" data-name="Group 7" transform="matrix(0.966, -0.259, 0.259, 0.966, 74.083, 128.015)">
+      <path id="Fill_1" data-name="Fill 1" d="M171.951,85.478c0,47.208-38.492,85.478-85.975,85.478S0,132.686,0,85.478,38.492,0,85.975,0s85.975,38.269,85.975,85.478" fill="#416ff4"/>
+      <path id="Fill_3" data-name="Fill 3" d="M85.975,85.478,29.093,149.573A85.3,85.3,0,0,1,0,85.478C0,38.586,38.811,0,85.975,0s85.975,38.586,85.975,85.478Z" fill="#f7e36d"/>
+      <path id="Fill_5" data-name="Fill 5" d="M85.975,76.01,48.951,153.156A85.259,85.259,0,0,1,46.648,0Z" transform="translate(0 9.468)" fill="#2bd67b"/>
+    </g>
+    <g id="Icons_More_Horizontal" data-name="Icons / More / Horizontal" transform="matrix(0.966, -0.259, 0.259, 0.966, 247.175, 35.874)">
+      <path id="Color-5" data-name="Color" d="M11.71,2a1.86,1.86,0,0,1,1.673-2,1.859,1.859,0,0,1,1.672,2,1.858,1.858,0,0,1-1.672,2A1.859,1.859,0,0,1,11.71,2ZM5.855,2A1.859,1.859,0,0,1,7.528,0,1.86,1.86,0,0,1,9.2,2,1.859,1.859,0,0,1,7.528,4,1.858,1.858,0,0,1,5.855,2ZM0,2A1.86,1.86,0,0,1,1.673,0,1.859,1.859,0,0,1,3.345,2,1.858,1.858,0,0,1,1.673,4,1.859,1.859,0,0,1,0,2Z" transform="translate(0.081 0.428)" opacity="0.2"/>
+    </g>
+    <text id="Text-4" data-name="Text" transform="matrix(0.966, -0.259, 0.259, 0.966, 145.24, 81.52)" font-size="22" font-family="SegoeUI, Segoe UI" letter-spacing="-0.023em"><tspan x="-42.808" y="0">Pie chart </tspan></text>
+  </g>
+</svg>
