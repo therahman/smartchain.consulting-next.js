@@ -7,7 +7,12 @@ const Services = () => {
 				<h1 className='text-3xl lg:text-4xl text-secondary text-center font-bold '>Our Services</h1>
 			</div>
 			<div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-3'>
-				<div className='flex flex-col gap-3 rounded-xl py-5 px-6 hover:shadow-3xl transition duration-300 ease-in-out'>
+				<div
+					className='flex flex-col gap-3 rounded-xl py-5 px-6 hover:shadow-3xl transition duration-300 ease-in-out'
+					data-aos='fade-up'
+					data-aos-duration='800'
+					data-aos-once='true'
+				>
 					<div className='w-24 h-24 bg-dark-400'></div>
 					<div className='pb-6 mt-3'>
 						<h1 className='text-lg text-secondary font-semibold'>Mobile App Development</h1>
@@ -18,7 +23,12 @@ const Services = () => {
 						</p>
 					</div>
 				</div>
-				<div className='flex flex-col gap-3 rounded-xl py-5 px-6 hover:shadow-3xl transition duration-300 ease-in-out'>
+				<div
+					className='flex flex-col gap-3 rounded-xl py-5 px-6 hover:shadow-3xl transition duration-300 ease-in-out'
+					data-aos='fade-up'
+					data-aos-duration='800'
+					data-aos-once='true'
+				>
 					<div className='w-24 h-24 bg-dark-400'></div>
 					<div className='pb-6 mt-3'>
 						<h1 className='text-lg text-secondary font-semibold'>NFT Development</h1>
@@ -31,7 +41,12 @@ const Services = () => {
 						</p>
 					</div>
 				</div>
-				<div className='flex flex-col gap-3 rounded-xl py-5 px-6 hover:shadow-3xl transition duration-300 ease-in-out'>
+				<div
+					className='flex flex-col gap-3 rounded-xl py-5 px-6 hover:shadow-3xl transition duration-300 ease-in-out'
+					data-aos='fade-up'
+					data-aos-duration='800'
+					data-aos-once='true'
+				>
 					<div className='w-24 h-24 bg-dark-400'></div>
 					<div className='pb-6 mt-3'>
 						<h1 className='text-lg text-secondary font-semibold'>WEB APP DEVELOPMENT</h1>
@@ -43,7 +58,12 @@ const Services = () => {
 						</p>
 					</div>
 				</div>
-				<div className='flex flex-col gap-3 rounded-xl py-5 px-6 hover:shadow-3xl transition duration-300 ease-in-out'>
+				<div
+					className='flex flex-col gap-3 rounded-xl py-5 px-6 hover:shadow-3xl transition duration-300 ease-in-out'
+					data-aos='fade-up'
+					data-aos-duration='800'
+					data-aos-once='true'
+				>
 					<div className='w-24 h-24 bg-dark-400'></div>
 					<div className=' pb-6 mt-3'>
 						<h1 className='text-lg text-secondary font-semibold'>CUSTOM SOFTWARE</h1>
@@ -55,7 +75,12 @@ const Services = () => {
 						</p>
 					</div>
 				</div>
-				<div className='flex flex-col gap-3 rounded-xl py-5 px-6 hover:shadow-3xl transition duration-300 ease-in-out'>
+				<div
+					className='flex flex-col gap-3 rounded-xl py-5 px-6 hover:shadow-3xl transition duration-300 ease-in-out'
+					data-aos='fade-up'
+					data-aos-duration='800'
+					data-aos-once='true'
+				>
 					<div className='w-24 h-24 bg-dark-400'></div>
 					<div className=' pb-6 mt-3'>
 						<h1 className='text-lg text-secondary font-semibold'>WEBSITE DEVELOPMENT</h1>
@@ -67,7 +92,12 @@ const Services = () => {
 						</p>
 					</div>
 				</div>
-				<div className='flex flex-col gap-3 rounded-xl py-5 px-6 hover:shadow-3xl transition duration-300 ease-in-out'>
+				<div
+					className='flex flex-col gap-3 rounded-xl py-5 px-6 hover:shadow-3xl transition duration-300 ease-in-out'
+					data-aos='fade-up'
+					data-aos-duration='800'
+					data-aos-once='true'
+				>
 					<div className='w-24 h-24 bg-dark-400'></div>
 					<div className=' pb-6 mt-3'>
 						<h1 className='text-lg text-secondary font-semibold'>DIGITAL MARKETING</h1>

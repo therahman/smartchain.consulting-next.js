@@ -4,7 +4,7 @@ import ff from '../public/image/blog/blog-img-1.png';
 const AboutUs = () => {
 	return (
 		<>
-			<div className='pt-56 pb-32'>
+			<div className='pt-32 lg:pt-56 pb-32'>
 				<div className='container mx-auto lg:px-24 px-5'>
 					<div className='flex justify-center'>
 						<div
@@ -14,7 +14,7 @@ const AboutUs = () => {
 							data-aos-once='true'
 						>
 							<div className='text-center space-y-4'>
-								<h2 className='text-6xl font-bold leading-[72px] '>
+								<h2 className='text-5xl lg:text-6xl font-bold leading-[52px] lg:leading-[72px] '>
 									We help business to grow their customer base
 								</h2>
 								<p>
