@@ -12,14 +12,14 @@ const WhySmartchain = () => {
 					data-aos-once='true'
 				>
 					<div className='relative'>
-						<div className='absolute -top-4 -left-5 shadow-2xl rounded-3xl'>
+						<div className='absolute -top-4 -left-5 shadow-2xl rounded-3xl z-20'>
 							<Image src='/image/landing-6/widget-img-2.svg' alt='image' width={200} height={200} />
 						</div>
-						<div className='absolute -right-5 -bottom-4 shadow-2xl rounded-3xl'>
+						<div className='absolute -right-5 -bottom-4 shadow-2xl rounded-3xl z-10'>
 							<Image src='/image/landing-6/widget-img-3.svg' alt='image' width={300} height={200} />
 						</div>
-						<div className='shadow-2xl rounded-3xl ml-10'>
-							<Image src='/image/landing-6/widget-img-4.svg' alt='image' width={450} height={450} />
+						<div className='shadow-2xl rounded-3xl ml-10 '>
+							<Image src='/image/cms-basic.png' alt='image1' width={450} height={450} />
 						</div>
 					</div>
 				</div>

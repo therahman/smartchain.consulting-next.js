@@ -1,7 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import React, { useState } from 'react';
-import dds from '../../public/image/shop/1-cms-basic4x.png';
 const details = () => {
 	const [active, setActive] = useState(0);
 	return (
@@ -13,8 +12,7 @@ const details = () => {
 							<div className='row'>
 								<div className='border'>
 									<Image
-										src={dds}
-										// src='/image/shop/4x/1-cms-basic4x.png'
+										src='/public/image/blog/blog-img-1.png'
 										alt='1-cms-basic4x'
 										width={555}
 										height={444}

@@ -9,3 +9,12 @@ body {
 	margin: 0;
 	font-family: 'DM Sans', sans-serif;
 }
+
+@media (max-width: 1024px) {
+	.slideLeft {
+		animation: 0.5s ease 0s 1 normal forwards running slideLeft;
+	}
+	.slideRight {
+		animation: 0.5s ease 0s 1 normal forwards running slideRight;
+	}
+}

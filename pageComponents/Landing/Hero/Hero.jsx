@@ -52,12 +52,12 @@ const Hero = () => {
 										height={1933}
 									/>
 								</div>
-								{/* <div className='absolute top-[333px] left-[23%]'>
+								<div className='absolute top-[333px] left-[23%]'>
 									<Image src='/image/landing-6/card-img.svg' alt='image' width={222} height={333} />
 								</div>
 								<div className='absolute top-[588px] left-[7%]'>
 									<Image src='/image/landing-6/widget-img.svg' alt='image' width={222} height={333} />
-								</div> */}
+								</div>
 							</div>
 						</div>
 					</div>

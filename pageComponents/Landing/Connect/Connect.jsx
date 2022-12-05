@@ -5,7 +5,10 @@ const Connect = () => {
 	return (
 		<>
 			<div className='container mx-auto px-5 lg:px-24 py-12 lg:py-24'>
-				<div className='flex justify-center '>
+				<div className='flex flex-col justify-center gap-6'>
+					<div>
+						<Image src='/image/landing-6/content-5-img-2.png' width={1222} height={355} />
+					</div>
 					<div className='w-full text-center' data-aos='zoom-in' data-aos-duration='800' data-aos-once='true'>
 						<h1 className='text-3xl lg:text-4xl font-bold mb-5 text-secondary'>
 							Connect with us for Smart Solutions

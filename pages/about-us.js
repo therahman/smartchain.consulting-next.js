@@ -29,15 +29,21 @@ const AboutUs = () => {
 			</div>
 			<div className=''>
 				<div className='container mx-auto lg:px-24 px-5'>
-					<div className='flex '>
+					<div className='flex gap-8'>
 						<div className='w-1/2' data-aos='fade-right' data-aos-duration='800' data-aos-once='true'>
 							<div className=''>
-								<Image src={ff} alt='image' width={666} height={555} />
+								<Image src='/image/blog/blog-img-1.png' alt='image' width={666} height={555} />
 							</div>
 						</div>
 						<div className='w-1/2' data-aos='fade-left' data-aos-duration='800' data-aos-once='true'>
 							<div className='about-content-1-right'>
-								<img className='w-100' src='image/about/about-img-2.png' alt='image' />
+								<Image
+									className='w-100'
+									src='/image/blog/blog-img-1.png'
+									alt='image'
+									width={666}
+									height={555}
+								/>
 							</div>
 						</div>
 					</div>
@@ -72,10 +78,22 @@ const AboutUs = () => {
 					<div className='flex'>
 						<div className='w-5/12' data-aos='fade-right' data-aos-duration='800' data-aos-once='true'>
 							<div className='about-content-2-img-1'>
-								<img className='w-100' src='image/about/about-img-3.png' alt='image' />
+								<Image
+									className='w-100'
+									src='image/blog/blog-img-1.png'
+									alt='image'
+									width={666}
+									height={555}
+								/>
 							</div>
 							<div className='about-content-2-img-2 text-end'>
-								<img className='w-100' src='image/about/about-img-4.png' alt='image' />
+								<Image
+									className='w-100'
+									src='/image/blog/blog-img-1.png'
+									alt='image'
+									width={666}
+									height={555}
+								/>
 							</div>
 						</div>
 						<div className='w-7/12' data-aos='fade-left' data-aos-duration='800' data-aos-once='true'>
@@ -94,7 +112,13 @@ const AboutUs = () => {
 								</div>
 							</div>
 							<div className='about-content-2-right-img '>
-								<img className='w-100' src='image/about/about-img-5.png' alt='image' />
+								<Image
+									className='w-100'
+									src='/image/blog/blog-img-1.png'
+									alt='image'
+									width={666}
+									height={555}
+								/>
 							</div>
 						</div>
 					</div>
