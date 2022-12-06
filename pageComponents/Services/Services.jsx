@@ -1,6 +1,10 @@
 import Image from 'next/image';
 import Link from 'next/link';
 
+const myLoader = ({ src }) => {
+	return `https:${src}`;
+};
+
 const Services = ({ product }) => {
 	return (
 		<>
@@ -9,7 +13,13 @@ const Services = ({ product }) => {
 					<div className='w-full col-span-12 md:col-span-6 lg:col-span-3 space-y-2 order-2 lg:order-1'>
 						<div className='border relative w-full rounded-lg overflow-hidden'>
 							<div className='w-5 h-5 absolute top-1 right-1 bg-primary rounded-full z-10'></div>
-							<Image src='//image/blog/blog-img-1.png' alt='1-cms-basic4x' width={555} height={555} />
+							<Image
+								loader={myLoader}
+								src={product?.cover.fields.file.url}
+								alt={product?.cover.fields.title}
+								width={555}
+								height={555}
+							/>
 						</div>
 						<div className='space-y-2.5'>
 							<Link href='https://forms.gle/Eu5HbpanCFtiWdWt5'>

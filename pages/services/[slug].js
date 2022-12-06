@@ -21,6 +21,7 @@ const details = (props) => {
 
 export const getStaticPaths = async () => {
 	const entries = await client.getEntries();
+	// console.log(entries.items[]);
 	const paths = entries.items
 		.map((item) => ({ params: { slug: item.fields.slug } }))
 		.filter(({ params }) => params.slug);
@@ -32,9 +33,10 @@ export const getStaticPaths = async () => {
 
 export const getStaticProps = async ({ params }) => {
 	try {
-		const entries = await client.getEntries();
+		const entries = await client.getEntries({
+			'sys.contentType.sys.id': 'products',
+		});
 		let entry = {};
-
 		for (let i = 0; i < entries.items.length; i++) {
 			if (entries.items[i].fields.slug === params.slug) {
 				entry = entries.items[i].fields;
