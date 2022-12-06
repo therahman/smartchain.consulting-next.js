@@ -16,7 +16,7 @@ const Landing = () => {
 			<Services />
 			<Industries />
 			<Partnership />
-			<Request />
+			{/* <Request /> */}
 		</>
 	);
 };

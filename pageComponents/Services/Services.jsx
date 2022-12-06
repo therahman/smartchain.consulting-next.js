@@ -23,7 +23,11 @@ const Services = ({ product }) => {
 						</div>
 						<div className='space-y-2.5'>
 							<Link href='https://forms.gle/Eu5HbpanCFtiWdWt5'>
-								<a className='w-full py-2.5 flex justify-center items-center gap-1 px-3 border border-primary rounded-lg text-primary'>
+								<a
+									target='_blank'
+									rel='noreferrer'
+									className='w-full py-2.5 flex justify-center items-center gap-1 px-3 border border-primary rounded-lg text-primary'
+								>
 									User Guide
 									<svg
 										className='fill-primary'
@@ -39,7 +43,11 @@ const Services = ({ product }) => {
 							</Link>
 
 							<Link href='https://forms.gle/8LQQxR82zJdh1cXy5'>
-								<a className='w-full py-2.5 flex justify-center items-center gap-1 px-3 border border-primary rounded-lg text-primary'>
+								<a
+									target='_blank'
+									rel='noreferrer'
+									className='w-full py-2.5 flex justify-center items-center gap-1 px-3 border border-primary rounded-lg text-primary'
+								>
 									Contact US
 									<svg
 										className='fill-primary'
@@ -112,11 +120,21 @@ const Services = ({ product }) => {
 									</li>
 								</ul>
 								<div className='flex items-center gap-2 flex-col'>
-									<button className='border rounded-md bg-primary text-white py-2 w-full'>
-										BUY NOW
-									</button>
+									<Link href='https://checkout.stripe.com/c/pay/cs_live_a1fYhs1RrNeY8JRMUlyVtdt0ed534xwLmvonv9j42TivlbbXGm7OCVsgkr#fidkdWxOYHwnPyd1blppbHNgWjA0TzVcaDxJSTBBQE9zclFLbWBHa2g0M3BERzNRblNWcXZnVmZOVEpcbzE3f1dmVXJDNXVuMXxIUEZtakxTcnJVNTNNMGsxV0tcMlYwbEBxbGJianFfMEFANTVdU0htQU1MSScpJ3VpbGtuQH11anZgYUxhJz8nPERUYjQ3PVxBY0dMY0RcPXJ%2FJ3gl'>
+										<a
+											target='_blank'
+											rel='noreferrer'
+											className='border text-center rounded-md bg-primary text-white py-2 w-full'
+										>
+											BUY NOW
+										</a>
+									</Link>
 									<Link href='https://forms.gle/AMqqwamJ8hosBuDH7'>
-										<a className='border rounded-md border-primary text-primary py-2 w-full text-center'>
+										<a
+											target='_blank'
+											rel='noreferrer'
+											className='border rounded-md border-primary text-primary py-2 w-full text-center'
+										>
 											Request Customization
 										</a>
 									</Link>
@@ -186,7 +204,9 @@ const Services = ({ product }) => {
 					<p>
 						After completing the Purchase and getting the successful message, Complete the form{' '}
 						<Link href='https://forms.gle/vuAQxYcRKTtvQdUD9'>
-							<a className='text-primary font-semibold'>here</a>
+							<a target='_blank' rel='noreferrer' className='text-primary font-semibold'>
+								here
+							</a>
 						</Link>{' '}
 						to get your download link. For any queries contact
 						<a className='text-primary font-semibold'> support@digibi.info</a>

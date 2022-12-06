@@ -53,9 +53,15 @@ const Header = () => {
 						</nav>
 					</div>
 					<div className='header-btns header-btns ms-auto d-none d-xs-inline-flex'>
-						<a className='bg-primary px-5 py-3 text-white rounded-lg text-sm ' href='#'>
-							Get in touch
-						</a>
+						<Link href='https://forms.gle/8LQQxR82zJdh1cXy5'>
+							<a
+								target='_blank'
+								rel='noreferrer'
+								className='bg-primary px-5 py-3 text-white rounded-lg text-sm '
+							>
+								Get in touch
+							</a>
+						</Link>
 					</div>
 					{/* mobile menu trigger */}
 					<div onClick={() => setMenuOpen(!menuOpen)} className='mobile-menu-trigger'>
