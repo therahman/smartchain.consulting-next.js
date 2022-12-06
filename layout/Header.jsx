@@ -29,7 +29,12 @@ const Header = () => {
 					{/* Brand Logo */}
 					<div className='brand-logo'>
 						<Link href='/'>
-							<Image src='/image/logo/smartchin-logo-white-4.svg' width={120} height={44} alt='xc' />
+							<Image
+								src='//image/logo/smartchin-logo-white-4.svg'
+								width={120}
+								height={44}
+								alt='smartchin-logo'
+							/>
 						</Link>
 					</div>
 					<div className='menu-block-wrapper'>
@@ -51,9 +56,6 @@ const Header = () => {
 						<a className='bg-primary px-5 py-3 text-white rounded-lg text-sm ' href='#'>
 							Get in touch
 						</a>
-						{/* <a className='btn sign-in-btn focus-reset' href='#'>
-							Sign In
-						</a> */}
 					</div>
 					{/* mobile menu trigger */}
 					<div onClick={() => setMenuOpen(!menuOpen)} className='mobile-menu-trigger'>

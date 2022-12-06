@@ -3,7 +3,7 @@ import React from 'react';
 
 const WhySmartchain = () => {
 	return (
-		<div className='container mx-auto px-5 lg:px-24 py-12 lg:py-24'>
+		<div className='overflow-hidden container mx-auto px-5 lg:px-24 py-12 lg:py-24'>
 			<div className='flex flex-col lg:flex-row justify-center lg:gap-0 gap-10'>
 				<div
 					className='w-full lg:w-1/2 lg:pr-12'
@@ -12,14 +12,14 @@ const WhySmartchain = () => {
 					data-aos-once='true'
 				>
 					<div className='relative'>
-						<div className='absolute -top-4 -left-5 shadow-2xl rounded-3xl z-20'>
-							<Image src='/image/landing-6/widget-img-2.svg' alt='image' width={200} height={200} />
+						<div className='absolute -top-4 -left-5 rounded-3xl shadow-3xl z-20 bg-white'>
+							<Image src='/image/landing/widget-img-2.svg' alt='image' width={200} height={200} />
 						</div>
-						<div className='absolute -right-5 -bottom-4 shadow-2xl rounded-3xl z-10'>
-							<Image src='/image/landing-6/widget-img-3.svg' alt='image' width={300} height={200} />
+						<div className='absolute -right-5 -bottom-4 shadow-3xl rounded-3xl z-10 bg-white'>
+							<Image src='/image/landing/widget-img-3.svg' alt='image' width={230} height={180} />
 						</div>
-						<div className='shadow-2xl rounded-3xl ml-10 '>
-							<Image src='/image/cms-basic.png' alt='image1' width={450} height={450} />
+						<div className='shadow-3xl rounded-3xl ml-10 '>
+							<Image src='/image/landing/widget-img-4.svg' alt='image1' width={450} height={450} />
 						</div>
 					</div>
 				</div>

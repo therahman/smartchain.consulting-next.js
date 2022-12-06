@@ -1,9 +1,10 @@
+import Image from 'next/image';
 import React from 'react';
 
 const Industries = () => {
 	return (
 		<div className='bg-primary/10'>
-			<div className='container mx-auto px-5 lg:px-24 py-12 lg:py-24'>
+			<div className='overflow-hidden container mx-auto px-5 lg:px-24 py-12 lg:py-24'>
 				<div className='pb-12 text-center'>
 					<h1 className='text-secondary text-3xl lg:text-4xl font-bold'>Industries We Serve</h1>
 				</div>
@@ -14,7 +15,9 @@ const Industries = () => {
 						data-aos-duration='800'
 						data-aos-once='true'
 					>
-						<div className='w-16 h-16 bg-gray-500 rounded-full'></div>
+						<div className='w-16 h-16 rounded-full'>
+							<Image src='//image/landing/healthcare.png' width={250} height={250} />
+						</div>
 						<div>
 							<h1 className='text-lg font-semibold'>Healthcare</h1>
 							<p>
@@ -30,7 +33,9 @@ const Industries = () => {
 						data-aos-duration='800'
 						data-aos-once='true'
 					>
-						<div className='w-16 h-16 bg-gray-500 rounded-full'></div>
+						<div className='w-16 h-16  rounded-full'>
+							<Image src='//image/landing/fintech.png' width={250} height={250} />
+						</div>
 						<div>
 							<h1 className='text-lg font-semibold'>Fintech</h1>
 							<p>
@@ -45,7 +50,9 @@ const Industries = () => {
 						data-aos-duration='800'
 						data-aos-once='true'
 					>
-						<div className='w-16 h-16 bg-gray-500 rounded-full'></div>
+						<div className='w-16 h-16  rounded-full'>
+							<Image src='//image/landing/edtech.png' width={250} height={250} />
+						</div>
 						<div>
 							<h1 className='text-lg font-semibold'>EdTech</h1>
 							<p>
@@ -61,9 +68,11 @@ const Industries = () => {
 						data-aos-duration='800'
 						data-aos-once='true'
 					>
-						<div className='w-16 h-16 bg-gray-500 rounded-full'></div>
+						<div className='w-16 h-16 rounded-full'>
+							<Image src='//image/landing/logistics.png' width={250} height={250} />
+						</div>
 						<div>
-							<h1 className='text-lg font-semibold'>logistics</h1>
+							<h1 className='text-lg font-semibold'>Logistics</h1>
 							<p>
 								​​High-quality tracking, monitoring, and management tools for logistics enable you to
 								transact with businesses throughout the world. Get transport app development for your
@@ -77,7 +86,9 @@ const Industries = () => {
 						data-aos-duration='800'
 						data-aos-once='true'
 					>
-						<div className='w-16 h-16 bg-gray-500 rounded-full'></div>
+						<div className='w-16 h-16 rounded-full'>
+							<Image src='//image/landing/ecommerce.png' width={250} height={250} />
+						</div>
 						<div>
 							<h1 className='text-lg font-semibold'>ecommerce</h1>
 							<p>
@@ -92,7 +103,9 @@ const Industries = () => {
 						data-aos-duration='800'
 						data-aos-once='true'
 					>
-						<div className='w-16 h-16 bg-gray-500 rounded-full'></div>
+						<div className='w-16 h-16 rounded-full'>
+							<Image src='//image/landing/art.png' width={250} height={250} />
+						</div>
 						<div>
 							<h1 className='text-lg font-semibold'>Art</h1>
 							<p>Launch iconic goods where science and art meet.</p>
@@ -104,7 +117,9 @@ const Industries = () => {
 						data-aos-duration='800'
 						data-aos-once='true'
 					>
-						<div className='w-16 h-16 bg-gray-500 rounded-full'></div>
+						<div className='w-16 h-16 rounded-full'>
+							<Image src='//image/landing/15.png' width={250} height={230} />
+						</div>
 						<div>
 							<h1 className='text-lg font-semibold'>Banking & Finance</h1>
 							<p>
@@ -120,7 +135,9 @@ const Industries = () => {
 						data-aos-duration='800'
 						data-aos-once='true'
 					>
-						<div className='w-16 h-16 bg-gray-500 rounded-full'></div>
+						<div className='w-16 h-16 rounded-full'>
+							<Image src='//image/landing/14.png' width={250} height={230} />
+						</div>
 						<div>
 							<h1 className='text-lg font-semibold'>Manufacturing</h1>
 							<p>

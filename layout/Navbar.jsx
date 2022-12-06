@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 
 const Navbar = () => {
 	const [menuOpen, setMenuOpen] = useState(true);
+	const [productsMenu, setProductsMenu] = useState(true);
 	return (
 		<>
 			<ul className='site-menu-main'>
@@ -23,7 +24,8 @@ const Navbar = () => {
 						}`}
 						id='submenu-100'
 					>
-						<ul className='grid grid-cols-1 lg:grid-cols-4 gap-4 gap-y-4 lg:gap-y-8 pt-5 lg:pt-0'>
+						<span className='text-2xl font-semibold text-primary'>Coming Soon</span>
+						{/* <ul className='grid grid-cols-1 lg:grid-cols-4 gap-4 gap-y-4 lg:gap-y-8 pt-5 lg:pt-0'>
 							<li className='w-full'>
 								<div className=''>
 									<h3 className='text-sm tracking-widest text-dark-400 lg:mb-3 uppercase'>
@@ -142,18 +144,28 @@ const Navbar = () => {
 									</div>
 								</div>
 							</li>
-						</ul>
+						</ul> */}
 					</div>
 				</li>
-				<li className='nav-item'>
-					<Link href='blogs'>
-						<a className='nav-link-item'>Blogs</a>
-					</Link>
-				</li>
-				<li className='nav-item'>
-					<Link href='about-us'>
-						<a className='nav-link-item'>About Us</a>
-					</Link>
+				<li className='nav-item nav-item-has-children' onClick={() => setProductsMenu(!productsMenu)}>
+					<a href='#' className='nav-link-item drop-trigger'>
+						Products <i className='fas fa-angle-down'></i>
+					</a>
+					<ul
+						className={`${productsMenu ? 'sub-menu slideRight' : 'sub-menu active slideLeft'}`}
+						id='submenu-1'
+					>
+						<li className='sub-menu--item'>
+							<Link href='/services/digibits-pc-desk-open-source-module'>
+								<a>Digibits - PC Desk Open Source Module</a>
+							</Link>
+						</li>
+						<li className='sub-menu--item'>
+							<Link href='/services/digibits-multi-vendor-marketplace-solution'>
+								<a>Digibits - Multi Vendor marketplace solution</a>
+							</Link>
+						</li>
+					</ul>
 				</li>
 			</ul>
 		</>

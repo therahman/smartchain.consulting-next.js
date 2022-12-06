@@ -1,5 +1,3 @@
-
-
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
 html,
 body {
@@ -317,7 +315,8 @@ div#loading img {
 
 @media (min-width: 576px) {
 	.site-navbar {
-		padding-top: 25px;
+		padding-top: 10px;
+		padding-bottom: 10px;
 	}
 }
 

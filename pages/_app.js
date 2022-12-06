@@ -1,4 +1,5 @@
 import Layout from '../layout/Layout';
+import NextNProgress from 'nextjs-progressbar';
 
 import '../styles/styles.css';
 import '../styles/globals.css';
@@ -13,9 +14,12 @@ function MyApp({ Component, pageProps }) {
 		Aos.init();
 	}, []);
 	return (
-		<Layout>
-			<Component {...pageProps} />
-		</Layout>
+		<>
+			<NextNProgress color='#416ff4' startPosition={0.3} stopDelayMs={200} height={3} showOnShallow={true} />
+			<Layout>
+				<Component {...pageProps} />
+			</Layout>
+		</>
 	);
 }
 

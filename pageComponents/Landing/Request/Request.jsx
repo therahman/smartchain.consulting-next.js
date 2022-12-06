@@ -4,8 +4,8 @@ import Form from '../../../components/Form/Form';
 const Request = () => {
 	return (
 		<>
-			<div className='container mx-auto px-5 lg:px-24 py-24'>
-				<div className=' border-white px-8 py-8 lg:py-16 bg-secondary rounded-3xl relative after:contents[""] after:absolute after:top-6 after:left-6 after:w-full after:h-full after:bg-transparent lg:after:bg-primary/20 after:rounded-3xl after:-z-10'>
+			<div className='overflow-hidden container mx-auto px-5 lg:px-24 py-24'>
+				<div className='border-white px-8 py-8 lg:py-16 bg-secondary rounded-3xl relative after:contents[""] after:absolute after:top-6 after:left-6 after:w-full after:h-full after:bg-transparent lg:after:bg-primary/20 after:rounded-3xl after:-z-10'>
 					<div className='flex flex-col lg:flex-row gap-8 lg:gap-5 '>
 						<div
 							className='w-full lg:w-1/2 h-full space-y-3 lg:px-7'
@@ -30,7 +30,7 @@ const Request = () => {
 					</div>
 				</div>
 			</div>
-			<div className='container mx-auto px-5 lg:px-24 '>
+			<div className='overflow-hidden container mx-auto px-5 lg:px-24 '>
 				<div
 					className='bg-secondary p-7 w-full rounded-3xl flex flex-col lg:flex-row gap-4'
 					data-aos='zoom-in'

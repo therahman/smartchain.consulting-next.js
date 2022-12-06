@@ -2,7 +2,7 @@ import React from 'react';
 
 const Services = () => {
 	return (
-		<div className='container mx-auto px-5 lg:px-24 py-12 lg:py-24'>
+		<div className='overflow-hidden container mx-auto px-5 lg:px-24 py-12 lg:py-24'>
 			<div className='pb-11'>
 				<h1 className='text-3xl lg:text-4xl text-secondary text-center font-bold '>Our Services</h1>
 			</div>
@@ -13,7 +13,9 @@ const Services = () => {
 					data-aos-duration='800'
 					data-aos-once='true'
 				>
-					<div className='w-24 h-24 bg-dark-400'></div>
+					<div className='w-20 h-20 text-indigo-500 bg-indigo-500/20 shadow-3xl rounded-full flex items-center justify-center text-3xl'>
+						<i class='icon icon-android'></i>
+					</div>
 					<div className='pb-6 mt-3'>
 						<h1 className='text-lg text-secondary font-semibold'>Mobile App Development</h1>
 						<p className='text-dark-400 text-base'>
@@ -29,7 +31,9 @@ const Services = () => {
 					data-aos-duration='800'
 					data-aos-once='true'
 				>
-					<div className='w-24 h-24 bg-dark-400'></div>
+					<div className='w-20 h-20 bg-white text-yellow-400 bg-yellow-400/20 shadow-3xl rounded-full flex items-center justify-center text-3xl'>
+						<i class='icon icon-palette-2'></i>
+					</div>
 					<div className='pb-6 mt-3'>
 						<h1 className='text-lg text-secondary font-semibold'>NFT Development</h1>
 						<p className='text-dark-400 text-base'>
@@ -47,7 +51,9 @@ const Services = () => {
 					data-aos-duration='800'
 					data-aos-once='true'
 				>
-					<div className='w-24 h-24 bg-dark-400'></div>
+					<div className='w-20 h-20 bg-white text-primary bg-primary/20 shadow-3xl rounded-full flex items-center justify-center text-3xl'>
+						<i class='icon icon-code-2'></i>
+					</div>
 					<div className='pb-6 mt-3'>
 						<h1 className='text-lg text-secondary font-semibold'>WEB APP DEVELOPMENT</h1>
 						<p className='text-dark-400 text-base'>
@@ -64,7 +70,9 @@ const Services = () => {
 					data-aos-duration='800'
 					data-aos-once='true'
 				>
-					<div className='w-24 h-24 bg-dark-400'></div>
+					<div className='w-20 h-20 bg-white text-violet-500 bg-violet-500/20 shadow-3xl rounded-full flex items-center justify-center text-3xl'>
+						<i class='icon icon-touch-id-2'></i>
+					</div>
 					<div className=' pb-6 mt-3'>
 						<h1 className='text-lg text-secondary font-semibold'>CUSTOM SOFTWARE</h1>
 						<p className='text-dark-400 text-base'>
@@ -81,7 +89,9 @@ const Services = () => {
 					data-aos-duration='800'
 					data-aos-once='true'
 				>
-					<div className='w-24 h-24 bg-dark-400'></div>
+					<div className='w-20 h-20 bg-white text-pink-500 bg-pink-500/20 shadow-3xl rounded-full flex items-center justify-center text-3xl'>
+						<i class='icon icon-layout-11'></i>
+					</div>
 					<div className=' pb-6 mt-3'>
 						<h1 className='text-lg text-secondary font-semibold'>WEBSITE DEVELOPMENT</h1>
 						<p className='text-dark-400 text-base'>
@@ -98,7 +108,9 @@ const Services = () => {
 					data-aos-duration='800'
 					data-aos-once='true'
 				>
-					<div className='w-24 h-24 bg-dark-400'></div>
+					<div className='w-20 h-20 bg-white text-emerald-500 bg-emerald-500/20 shadow-3xl rounded-full flex items-center justify-center text-3xl'>
+						<i class='icon icon-layout-11'></i>
+					</div>
 					<div className=' pb-6 mt-3'>
 						<h1 className='text-lg text-secondary font-semibold'>DIGITAL MARKETING</h1>
 						<p className='text-dark-400 text-base'>

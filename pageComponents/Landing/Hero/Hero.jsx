@@ -22,7 +22,7 @@ const Hero = () => {
 							data-aos-duration='800'
 							data-aos-once='true'
 						>
-							<div className='pt-24 lg:pt-72 lg:pb-96 '>
+							<div className=' lg:pt-72 lg:pb-96 '>
 								<h2 className='text-white text-3xl lg:text-5xl font-bold mb-4'>
 									Creating Impactful Websites
 								</h2>
@@ -43,20 +43,20 @@ const Hero = () => {
 							data-aos-duration='800'
 							data-aos-once='true'
 						>
-							<div className='relative w-full border'>
-								<div className='lg:absolute w-full left-0 lg:top-44 rotate-12'>
+							<div className='relative w-full'>
+								<div className='lg:absolute pt-12 left-52 top-12 lg:top-24 rotate-[15deg] lg:rotate-0 w-full'>
 									<Image
-										src='/image/landing-6/dashboard-img.svg'
+										src='/image/landing/dashboard-img.svg'
 										alt='image'
 										width={2222}
 										height={1933}
 									/>
 								</div>
-								<div className='absolute top-[333px] left-[23%]'>
-									<Image src='/image/landing-6/card-img.svg' alt='image' width={222} height={333} />
+								<div className='hidden lg:block absolute top-[249px] left-[8%]'>
+									<Image src='/image/landing/card-img.svg' alt='image' width={222} height={333} />
 								</div>
-								<div className='absolute top-[588px] left-[7%]'>
-									<Image src='/image/landing-6/widget-img.svg' alt='image' width={222} height={333} />
+								<div className='hidden lg:block absolute top-[521px] left-[3%]'>
+									<Image src='/image/landing/widget-img.svg' alt='image' width={322} height={333} />
 								</div>
 							</div>
 						</div>

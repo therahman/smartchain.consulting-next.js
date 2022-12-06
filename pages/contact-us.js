@@ -1,10 +1,11 @@
 import React from 'react';
+import Form from '../components/Form/Form';
 
 const ContactUs = () => {
 	return (
 		<>
 			<div className='contact-us-area'>
-				<div className='container'>
+				<div className='container mx-auto '>
 					<div className='row'>
 						<div className='col-lg-12'>
 							<div className='contact-us-banner text-center'>
@@ -16,69 +17,10 @@ const ContactUs = () => {
 				</div>
 			</div>
 			<div className='contact-us-form-area'>
-				<div className='container'>
+				<div className='container mx-auto px-5 lg:px-24'>
 					<div className='row'>
 						<div className='col-lg-12'>
-							<form action='#' className='contact-us-form'>
-								<div className='row'>
-									<div className='col-lg-6'>
-										<div className='form-group'>
-											<label>Your name</label>
-											<input
-												type='text'
-												name='name'
-												id='name'
-												className='form-control'
-												placeholder='Enter your first & last name'
-											/>
-										</div>
-										<div className='form-group'>
-											<label>Phone</label>
-											<input
-												type='number'
-												name='phone'
-												id='phone'
-												className='form-control'
-												placeholder='Enter your phone number'
-											/>
-										</div>
-									</div>
-									<div className='col-lg-6'>
-										<div className='form-group'>
-											<label>Your email</label>
-											<input
-												type='email'
-												name='email'
-												id='email'
-												className='form-control'
-												placeholder='Enter your email address'
-											/>
-										</div>
-										<div className='form-group'>
-											<label>Subject</label>
-											<input
-												type='text'
-												name='subject'
-												id='subject'
-												className='form-control'
-												placeholder='Enter a subject line'
-											/>
-										</div>
-									</div>
-									<div className='col-lg-12'>
-										<div className='form-group'>
-											<label>Message</label>
-											<textarea
-												className='form-control'
-												placeholder='Write your message'
-											></textarea>
-										</div>
-									</div>
-									<div className='col-lg-12'>
-										<button className='btn focus-reset'>Send</button>
-									</div>
-								</div>
-							</form>
+							<Form.Contact />
 						</div>
 					</div>
 
