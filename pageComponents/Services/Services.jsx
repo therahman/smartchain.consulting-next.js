@@ -11,8 +11,7 @@ const Services = ({ product }) => {
 			<div className='container mx-auto px-5 pt-36 pb-24 lg:px-24'>
 				<div className='grid lg:grid-cols-12 gap-6'>
 					<div className='w-full col-span-12 md:col-span-6 lg:col-span-3 space-y-2 order-2 lg:order-1'>
-						<div className='border relative w-full rounded-lg overflow-hidden'>
-							<div className='w-5 h-5 absolute top-1 right-1 bg-primary rounded-full z-10'></div>
+						<div className=' relative w-full rounded-lg overflow-hidden bg-white'>
 							<Image
 								loader={myLoader}
 								src={product?.cover.fields.file.url}
