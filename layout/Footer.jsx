@@ -26,7 +26,7 @@ const Footer = () => {
 										</Link>
 									</li>
 									<li>
-										<Link href='https://twitter.com/SmartChain_tech?s=08' className='text-gray-500'>
+										<Link href='#' className='text-gray-500'>
 											<i className='fab fa-twitter'></i>
 										</Link>
 									</li>
@@ -49,22 +49,22 @@ const Footer = () => {
 							<h4 className='text-secondary text-base font-semibold tracking-wider'>Company</h4>
 							<ul className='text-base text-secondary space-y-2 tracking-wide'>
 								<li>
-									<Link href='/about-us'>
+									<Link href='#'>
 										<a>About Us</a>
 									</Link>
 								</li>
 								<li>
-									<Link href='/contact-us'>
+									<Link href='#'>
 										<a>Contact Us</a>
 									</Link>
 								</li>
 								<li>
-									<Link href='/products'>
+									<Link href='#'>
 										<a>Products</a>
 									</Link>
 								</li>
 								<li>
-									<Link href='/Services'>
+									<Link href='#'>
 										<a>Services</a>
 									</Link>
 								</li>
@@ -88,11 +88,7 @@ const Footer = () => {
 										<a>Software License Agreement</a>
 									</Link>
 								</li>
-								{/* <li>
-									<Link href='delivery-policy'>
-										<a>Delivery Policy</a>
-									</Link>
-								</li> */}
+
 								<li>
 									<Link href='/refund-and-cancellation-policy'>
 										<a>Cancellation Policy</a>
