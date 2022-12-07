@@ -12,7 +12,7 @@ const details = (props) => {
 	return (
 		<>
 			<Head>
-				<title>Services</title>
+				<title>Products</title>
 			</Head>
 			<Products {...props} />
 		</>
