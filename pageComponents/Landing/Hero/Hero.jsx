@@ -24,7 +24,7 @@ const Hero = () => {
 						>
 							<div className=' lg:pt-72 lg:pb-96 '>
 								<h2 className='text-white text-3xl lg:text-5xl font-bold mb-4'>
-									Creating Impactful Websites
+									Creating Impactful Softwares
 								</h2>
 								<p className=' text-white/40 text-base font-normal '>
 									Smart Chain is a leading tech-driven company that harnesses advanced technologies to

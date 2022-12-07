@@ -21,23 +21,24 @@ const Footer = () => {
 								<h4 className='text-gray-500'>Follow us on :</h4>
 								<ul className='flex gap-5'>
 									<li>
-										<Link href='#' className='text-gray-500'>
-											<i className='fab fa-facebook-f'></i>
+										<Link href='https://www.facebook.com/smartchain.me'>
+											<a target='_blank' rel='noreferrer' className='text-gray-500'>
+												<i className='fab fa-facebook-f'></i>
+											</a>
 										</Link>
 									</li>
 									<li>
-										<Link href='#' className='text-gray-500'>
-											<i className='fab fa-twitter'></i>
+										<Link href='https://twitter.com/SmartChain_tech'>
+											<a target='_blank' rel='noreferrer' className='text-gray-500'>
+												<i className='fab fa-twitter'></i>
+											</a>
 										</Link>
 									</li>
 									<li>
-										<Link href='#' className='text-gray-500'>
-											<i className='fab fa-instagram'></i>
-										</Link>
-									</li>
-									<li>
-										<Link href='#' className='text-gray-500'>
-											<i className='fab fa-youtube'></i>
+										<Link href='https://www.linkedin.com/company/smart-chain-llc/mycompany/'>
+											<a target='_blank' rel='noreferrer' className='text-gray-500'>
+												<i className='fab fa-linkedin'></i>
+											</a>
 										</Link>
 									</li>
 								</ul>
