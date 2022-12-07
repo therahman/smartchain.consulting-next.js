@@ -5,7 +5,7 @@ const myLoader = ({ src }) => {
 	return `https:${src}`;
 };
 
-const Services = ({ product }) => {
+const Products = ({ product }) => {
 	return (
 		<>
 			<div className='container mx-auto px-5 pt-36 pb-24 lg:px-24'>
@@ -216,4 +216,4 @@ const Services = ({ product }) => {
 	);
 };
 
-export default Services;
+export default Products;

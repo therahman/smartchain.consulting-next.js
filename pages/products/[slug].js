@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import React from 'react';
-import Services from '../../pageComponents/Services/Services';
+import Products from '../../pageComponents/Products/Products';
 const contentful = require('contentful');
 
 const client = contentful.createClient({
@@ -14,7 +14,7 @@ const details = (props) => {
 			<Head>
 				<title>Services</title>
 			</Head>
-			<Services {...props} />
+			<Products {...props} />
 		</>
 	);
 };

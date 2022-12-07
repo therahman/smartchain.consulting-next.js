@@ -156,12 +156,12 @@ const Navbar = () => {
 						id='submenu-1'
 					>
 						<li className='sub-menu--item'>
-							<Link href='/services/digibits-pc-desk-open-source-module'>
+							<Link href='/products/digibits-pc-desk-open-source-module'>
 								<a>Digibits - PC Desk Open Source Module</a>
 							</Link>
 						</li>
 						<li className='sub-menu--item'>
-							<Link href='/services/digibits-multi-vendor-marketplace-solution'>
+							<Link href='/products/digibits-multi-vendor-marketplace-solution'>
 								<a>Digibits - Multi Vendor marketplace solution</a>
 							</Link>
 						</li>
