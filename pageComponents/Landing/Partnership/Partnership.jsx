@@ -1,10 +1,11 @@
+import Image from 'next/image';
 import React from 'react';
 
 const Partnership = () => {
 	return (
 		<div className=' overflow-hidden container mx-auto px-5 lg:px-24 lg:py-24 py-12'>
-			<div>
-				<div className='text-center space-y-5'>
+			<div className='flex items-center justify-center gap-5'>
+				<div className='text-left space-y-5 md:w-1/2'>
 					<h1 className='text-4xl text-secondary font-bold'>Smart Strategic Partnership</h1>
 					<p>
 						In order to uphold the highest standards for software development, Smart Chain Technology builds
@@ -13,16 +14,8 @@ const Partnership = () => {
 						skills, enhancing your specific business requirements with cutting-edge technologies.
 					</p>
 				</div>
-				<div
-					className='grid grid-cols-2 lg:grid-cols-4 gap-6 mt-12'
-					data-aos='fade-right'
-					data-aos-duration='800'
-					data-aos-once='true'
-				>
-					<div className='border w-full h-16 bg-dark-400 rounded-lg flex items-center justify-center'></div>
-					<div className='border w-full h-16 bg-dark-400 rounded-lg flex items-center justify-center'></div>
-					<div className='border w-full h-16 bg-dark-400 rounded-lg flex items-center justify-center'></div>
-					<div className='border w-full h-16 bg-dark-400 rounded-lg flex items-center justify-center'></div>
+				<div className=' md:w-1/2 flex items-center justify-center'>
+					<Image src='/image/landing/partnership.png' width={500} height={500} />
 				</div>
 			</div>
 		</div>

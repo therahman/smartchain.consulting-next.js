@@ -44,19 +44,11 @@ const Hero = () => {
 							data-aos-once='true'
 						>
 							<div className='relative w-full'>
-								<div className='lg:absolute pt-12 left-52 top-12 lg:top-24 rotate-[15deg] lg:rotate-0 w-full'>
-									<Image
-										src='/image/landing/dashboard-img.svg'
-										alt='image'
-										width={2222}
-										height={1933}
-									/>
+								<div className='lg:absolute pt-12 left-32 top-12 lg:top-24 rotate-[15deg] lg:rotate-0 w-full'>
+									<Image src='/image/landing/hero-image-1.png' alt='image' width={550} height={550} />
 								</div>
-								<div className='hidden lg:block absolute top-[249px] left-[8%]'>
-									<Image src='/image/landing/card-img.svg' alt='image' width={222} height={333} />
-								</div>
-								<div className='hidden lg:block absolute top-[521px] left-[3%]'>
-									<Image src='/image/landing/widget-img.svg' alt='image' width={322} height={333} />
+								<div className='hidden lg:block absolute top-[421px] left-[3%]'>
+									<Image src='/image/landing/hero-image-2.png' alt='image' width={322} height={333} />
 								</div>
 							</div>
 						</div>

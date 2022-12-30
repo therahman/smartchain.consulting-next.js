@@ -11,16 +11,8 @@ const WhySmartchain = () => {
 					data-aos-duration='800'
 					data-aos-once='true'
 				>
-					<div className='relative'>
-						<div className='absolute -top-4 -left-5 rounded-3xl shadow-3xl z-20 bg-white'>
-							<Image src='/image/landing/widget-img-2.svg' alt='image' width={200} height={200} />
-						</div>
-						<div className='absolute -right-5 -bottom-4 shadow-3xl rounded-3xl z-10 bg-white'>
-							<Image src='/image/landing/widget-img-3.svg' alt='image' width={230} height={180} />
-						</div>
-						<div className='shadow-3xl rounded-3xl ml-10 '>
-							<Image src='/image/landing/widget-img-4.svg' alt='image1' width={450} height={450} />
-						</div>
+					<div className=''>
+						<Image src='/image/landing/connect-image.png' alt='connect-image' width={500} height={350} />
 					</div>
 				</div>
 				<div
