@@ -4,7 +4,7 @@ import React from 'react';
 const Partnership = () => {
 	return (
 		<div className=' overflow-hidden container mx-auto px-5 lg:px-24 lg:py-24 py-12'>
-			<div className='flex items-center justify-center gap-5'>
+			<div className='flex md:items-center md:justify-center md:flex-row flex-col gap-5'>
 				<div className='text-left space-y-5 md:w-1/2'>
 					<h1 className='text-4xl text-secondary font-bold'>Smart Strategic Partnership</h1>
 					<p>

@@ -44,7 +44,7 @@ const Hero = () => {
 							data-aos-once='true'
 						>
 							<div className='relative w-full'>
-								<div className='lg:absolute pt-12 left-32 top-12 lg:top-24 rotate-[15deg] lg:rotate-0 w-full'>
+								<div className='lg:absolute pt-12 left-32 top-12 lg:top-24 lg:rotate-[15deg] rotate-0 w-full'>
 									<Image src='/image/landing/hero-image-1.png' alt='image' width={550} height={550} />
 								</div>
 								<div className='hidden lg:block absolute top-[421px] left-[3%]'>
